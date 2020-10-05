@@ -1,0 +1,8 @@
+let arr = [{id:2},{id:2},{id:2},null,{id:2},{id:2}]
+
+
+function removeDuplicates(array) {
+  return array.filter((a, b) => array.indexOf(a).id != b.id)
+};
+
+console.log(JSON.stringify(removeDuplicates(arr)))
